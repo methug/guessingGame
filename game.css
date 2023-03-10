@@ -1,0 +1,168 @@
+body {
+    font-family: 'Tilt Neon', cursive;
+
+    margin: 0;
+    background-color: #f8fafc;
+}
+
+.games {
+    width: 95%;
+    height: 700px;
+    margin-left: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.game-container {
+    width: 30%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #645cff;
+    border-radius: 1rem;
+    box-shadow: 0px 1.5px 10px #645cff;
+
+}
+
+.heading {
+    color: whitesmoke;
+    letter-spacing: 1.5px;
+    margin-bottom: 25px;
+}
+
+.play-btn {
+    background-color: #645cff;
+    color: white;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 20%;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    text-decoration: none;
+}
+
+.play-btn:hover {
+    box-shadow: 0px 1.5px 15px #645cff;
+    transform: translateY(-3.5px);
+}
+
+.people {
+    background-image: url('https://images.unsplash.com/photo-1517732306149-e8f829eb588a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+    background-size: cover;
+    align-self: flex-end;
+}
+
+.people .heading {
+    color: white;
+}
+
+.books {
+    background-image: url("https://images.unsplash.com/photo-1509266272358-7701da638078?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Ym9va3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+
+}
+
+.cars {
+    background-image: url('https://images.unsplash.com/photo-1514316454349-750a7fd3da3a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y2Fyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60');
+    background-size: cover;
+    align-self: flex-end;
+}
+
+/* books */
+
+
+.books-body {
+    display: flex;
+
+    align-items: center;
+    background-color: #a2d2ff;
+
+}
+
+.heading2 {
+    color: #e63946;
+}
+
+.section {
+    width: 80%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #a2d2ff;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.img {
+    width: 400px;
+    height: 300px;
+    border-radius: 15%;
+    border-bottom: 1px solid #645cff;
+    box-shadow: 0px 1.5px 15px #645cff;
+}
+
+.input {
+    border: none;
+    box-shadow: 0px 1.5px 15px #645cff;
+    border-bottom: 1.5px solid #645cff;
+    color: whitesmoke;
+    font-size: 25px;
+    background-color: #645cff;
+
+}
+
+.submit-btn {
+    background-color: #645cff;
+    color: white;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 20%;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    text-decoration: none;
+}
+
+.correctAnswer {
+    box-shadow: 0px 1.5px 15px green;
+}
+
+.incorrectAnswer {
+    box-shadow: 0px 1.5px 15px red;
+}
+
+.notValid {
+    color: #e63946;
+    font-weight: 600;
+}
+
+.positive {
+    color: green;
+    font-weight: 600;
+}
+
+.result {
+    color: #e63946;
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 1.5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.extra {
+    color: green;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* people */
